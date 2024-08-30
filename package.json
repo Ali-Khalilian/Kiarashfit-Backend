@@ -1,0 +1,28 @@
+{
+  "name": "kiarashfit",
+  "version": "1.0.0",
+  "description": "backend of kiarashfit website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Ali Khalilian",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jalali-moment": "^3.3.11",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "path": "^0.12.7",
+    "sharp": "^0.32.5",
+    "uuid": "^9.0.1",
+    "yup": "^1.2.0"
+  }
+}
